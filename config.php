@@ -1,12 +1,12 @@
 <?php
 
-    //  criação  de banco de dados e  variáveis de conexão
+//  criação  de banco de dados e  variáveis de conexão
 
-    const dbDrive = 'mysql';
-    const dbHost = 'localhost';
-    const dbName = 'easyStats';
-    const dbUser = 'root';
-    const dbPass = '';
+const dbDrive = 'mysql';
+const dbHost = 'localhost';
+const dbName = 'easyStats';
+const dbUser = 'root';
+const dbPass = '';
 
 
     /*
@@ -30,7 +30,7 @@
             CREATE TABLE Jogadores (
                 idJogador INT PRIMARY KEY AUTO_INCREMENT,
                 idTime INT NOT NULL,
-                nomeJogador varchar(50) NOT NULL
+                nomeJogador varchar(50) NOT NULL,
                 idade INT,
                 posicao VARCHAR(50) NOT NULL,
                 golsAcumulados INT DEFAULT 0,               
